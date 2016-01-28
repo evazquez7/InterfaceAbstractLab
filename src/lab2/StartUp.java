@@ -41,8 +41,8 @@ public class StartUp {
      each method in every sub-class making it kind of pointless instead of just having a abstract superclass. 
      
      
-     I believe that the best time to use the Liskov Substitution principle is when a subclass is extended from a SuperClass. 
-     The time we would not use it is if we are calling the subclass as itself and there are no SuperClass connected to it. 
+     I believe that the best time to use the Liskov Substitution principle is when you are trying to encapsulate.  
+     The time we would not use it when we have to call a concrete superclass. 
      */
      
 }
