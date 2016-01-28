@@ -39,6 +39,10 @@ public class StartUp {
      /*
      The bad thing about using an interface in this lab is that it is more time consuming and uses a lot more code than lab one because  you need to override 
      each method in every sub-class making it kind of pointless instead of just having a abstract superclass. 
+     
+     
+     I believe that the best time to use the Liskov Substitution principle is when a subclass is extended from a SuperClass. 
+     The time we would not use it is if we are calling the subclass as itself and there are no SuperClass connected to it. 
      */
      
 }
