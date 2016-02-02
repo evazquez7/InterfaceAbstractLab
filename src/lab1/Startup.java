@@ -12,21 +12,22 @@ package lab1;
 import java.util.Scanner;
 public class Startup {
     public static void main(String[] args) {
-        Scanner keyboard = new Scanner(System.in);
-       
-        String courseNumber;
-        String prerequisites;
-        Course introProgramming = new IntroToProgrammingCourse();
-        Course introJava = new IntroJavaCourse();
-        Course advancedJava = new AdvancedJavaCourse();
+//        Scanner keyboard = new Scanner(System.in);
+//       
+//        String courseNumber;
+//        String prerequisites;
+//        ProgrammingCourse introProgramming = new IntroToProgrammingCourse();
+//        ProgrammingCourse introJava = new IntroJavaCourse();
+//        ProgrammingCourse advancedJava = new AdvancedJavaCourse();
+//        
+ProgrammingCourse courses[] = {new IntroToProgrammingCourse(), new IntroJavaCourse(),new AdvancedJavaCourse()};
         
-        Course courses[] = {new IntroToProgrammingCourse(), new IntroJavaCourse(),new AdvancedJavaCourse()};
-        
-        for (Course c: courses){
-            c.setCredits(4.0);
+        for (ProgrammingCourse c: courses){
+            c.setCredits(3.0);
             System.out.println(c.getCredits());
         }
-//        System.out.println("Please enter the Course Number for your Intro to Programming class ");
+        
+//        System.out.println("Please enter the ProgrammingCourse Number for your Intro to Programming class ");
 //        courseNumber = keyboard.nextLine();
 //        introProgramming.setCourseNumber(courseNumber);
 //        System.out.println("For Intro to Programming you are taking: " + introProgramming.getCredits());

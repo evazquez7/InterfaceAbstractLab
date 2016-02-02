@@ -14,7 +14,7 @@ import javax.swing.JOptionPane;
 //I used the open closed principles here in my getters becasue I do not want someone else entering or changing my code. 
 //The way I dealt with Concrete Dangers of Inheritance by having my StartUp Class only interacting with the user. 
 //I also included validation with but in the setter so before it sets the variable it will decided if it is the correct value. 
-public abstract class Course {
+public abstract class ProgrammingCourse {
     private String courseName;
     private String courseNumber;
     private  double credits;

@@ -7,7 +7,7 @@ package lab1;
  * @version     1.00
  */
 import javax.swing.JOptionPane;
-public class IntroJavaCourse extends Course{
+public class IntroJavaCourse extends ProgrammingCourse{
 
     private String prerequisites;
     private String courseName;
